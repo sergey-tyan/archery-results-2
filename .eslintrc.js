@@ -13,7 +13,8 @@ module.exports = {
         'class-methods-use-this': 0,
         'no-unused-vars': ['warn'],
         'import/prefer-default-export': ['warn'],
-        'prefer-destructuring': 0
+        'prefer-destructuring': 0,
+        'react/prefer-stateless-function': ['warn']
     },
     env: {
         'jest/globals': true
